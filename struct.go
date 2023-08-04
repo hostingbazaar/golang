@@ -37,4 +37,5 @@ func main() {
 	fmt.Println(user.fullName, "Your profile picture", user.userPhotos[0])
 	//current struct value
 	fmt.Println(user) // & Variable help to address same variable come on same data learn it more//
+	//get length of value
 }
