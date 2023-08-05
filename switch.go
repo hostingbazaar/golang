@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var value int = 9
 	switch value {
-	case 2, 9:
+	case 2, 9: //multiple case value you can use
 		fmt.Println("value is not right 1 ")
 		fallthrough //is used for print next condition also
 	case 4:
